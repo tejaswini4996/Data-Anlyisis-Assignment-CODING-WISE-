@@ -1,0 +1,2 @@
+name="tejas"
+print(name)

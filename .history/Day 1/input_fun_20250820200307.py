@@ -1,0 +1,5 @@
+name = input("enter your name=") 
+print("your name is ",name)
+num1=input(int())
+num2=input(int())
+print("total=" num1+num2)
