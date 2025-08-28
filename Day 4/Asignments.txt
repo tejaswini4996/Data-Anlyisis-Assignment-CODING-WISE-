@@ -1,0 +1,57 @@
+Section A: Fill in the Blanks (8 × 1 = 8 Marks)
+
+1) pd.DataFrame(...) creates a _"dataframe"_______ (pandas object that stores table data)
+
+2) df.head(n) shows the first _"n"__ rows of the DataFrame
+
+3) df.shape returns a tuple  (_"rows"___, __"col"__) representing rows and columns
+
+4) df.columns lists the ___"col"_____ name
+
+5) df.dtypes shows each columnʼs ____"Data Types"____
+
+6) To compute summary stats like sum or mean on your table, you use  df._sum/mean___()
+
+7) df.groupby('col') first ____'Splits'____ the rows by the values in  col
+
+8) After grouping, you call  .agg({'col':'sum'}) to ___"aggregate vals"_____ the values in that column
+
+
+Section B: Match the Columns (6 × 1 = 6 Marks)
+
+col 1                    col 2
+
+9) df.head()             a. Removes rows with missing values
+10) df.dropna()          b. Shows column names
+11) df.columns           c.  Computes summary statistics like sum, mean, max
+12) df.agg()             d. Shows the first few rows
+13) df.groupby('col')    e. Shows data type of each column
+14)  df.dtypes           f. Splits the DataFrame into groups based on one column 
+
+ANS:
+
+
+9) df.head()        =====>    d. Shows the first few rows
+10) df.dropna()     =====>     a. Removes rows with missing values 
+11) df.columns      =====>     b. Shows column names 
+12) df.agg()        ====>     c.  Computes summary statistics like sum, mean, max
+13) df.groupby('col') ====>   f. Splits the DataFrame into groups based on one column 
+14)  df.dtypes        ====>   e. Shows data type of each column
+
+
+Section C: True or False (6 × 1 = 6 Marks)
+
+15)  df.shape returns  (rows, columns)  ===> True
+16) df.tail() shows the first 5 rows by default ===> False
+17)  After  df.groupby('city'), you can call  .agg() to summarize each cityʼs data ===> True
+18)  df.fillna(0) removes all rows with missing values ===> False
+19) df.describe() gives count, mean, min, max for numeric columns. ===> True
+20) df.info() shows row count, column names, and data types ===> True 
+
+Section D: Short-Answer Theory (5 × 2 = 10 Marks)
+
+21) What is a DataFrame? ===> Dataframe is use to create a table includes rows and cols to create sample dataset
+22) Why do we use  df.head() before any analysis ===> df.head() gives first 5 rows by default, which helps us to quickly inspect the data before analysis.
+23) Explain why checking  df.dtypes is important ===> To add another data according to the similar data type and it prevents errors in analysis.
+24) How does  df.groupby() help when you have categories ===> It help us to implement group wise operations it splits by rows and then group by col.
+25) When would you use  df.agg() instead of individual  .sum() or  .mean() calls ? ===> when we want to perform all the operation at once on multiple cols.
