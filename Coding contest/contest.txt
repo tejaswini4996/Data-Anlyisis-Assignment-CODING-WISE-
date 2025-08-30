@@ -1,0 +1,41 @@
+Section A: Match the Column (10 Marks, 2×5)
+
+A1. DataFrame -----> 3. Used to store tabular data in pandas
+A2. np.array([1,2,3]) -------> 4. Used to store 1D or 2D arrays in NumPy
+A3. int("12") ----------> 1.  Converts string to integer in Python
+A4. Logical AND Operator ------------> 2. Returns True if both conditions are true
+A5. df.head() ---------> 5. Shows first few rows of a DataFrame
+
+
+Section B: True or False (1×5 = 5 Marks)
+
+1. Pandas DataFrames can only store integer data. ===> False
+2. np.mean() returns the sum of an array. ===> False
+3.  In Python,  if statements can be nested inside each other. ===> True
+4. df.info() in pandas shows information about the DataFrame ===> True
+5. The result of  3 > 2 and 2 > 1 is  True  ===>  True 
+
+
+Section C: Fill in the Blanks (1×5 = 5 Marks)
+
+1. To create a NumPy array, we use  np.___'array'____([1, 2, 3])
+2. To convert a string  "15" to integer, use  ____'int'____("15")
+3. The logical OR operator in Python is written as  ___'OR'__  
+4. To get the last 3 rows of a DataFrame  df, use  df.__'tail'___(3) 
+5. To add two numbers  a and  b, use the operator  ___'+'(Arithmetic Addition operator)__ 
+
+
+Section D: Theory Questions (2×5 = 10 Marks)
+
+1. A DataFrame is a 2D tabular data structure in pandas, like an Excel sheet. It 
+can store rows and columns of data and is useful for analyzing sales data in a shop
+
+2. If block we use to initiate the conditional loop if "if block's" condition is wrong elif block will run when it comes to conditional statement its not neccessary to have elif block it must include in code when we have to deal with multiple conditions.
+
+3.  aggregate functions in numpy are sum, min, etc 
+
+4. Type conv in python use to change the data types from one to another while dealing with multiple data types its easy to implement the operations.
+
+5.  we use df.info()  to inspect the dataframe structure
+
+
